@@ -31,7 +31,7 @@ case class Dollar() extends Currency {
 }
 
 case class Euro() extends Currency {
-  val symbol="�"
+  val symbol="€"
   val name="euro"
 }
 
