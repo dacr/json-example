@@ -23,7 +23,7 @@ trait Currency {
   val name:String
 }
 
-// unfortunately Objects is not supports by json4s (or not yet)
+// unfortunately Objects is not supported by json4s (or not yet)
 
 case class Dollar() extends Currency {
   val symbol="$"
@@ -31,7 +31,7 @@ case class Dollar() extends Currency {
 }
 
 case class Euro() extends Currency {
-  val symbol="Û"
+  val symbol="ï¿½"
   val name="euro"
 }
 
